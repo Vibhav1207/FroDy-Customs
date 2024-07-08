@@ -1132,6 +1132,7 @@ header {
             display: inline-block;
             animation: pulse 1.5s infinite;
   }
+
   @keyframes pulse {
     0% {
         transform: scale(1);
@@ -1146,7 +1147,11 @@ header {
         box-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700;
     }
 }
-
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
   .btn {
     font-size: 14px;
     padding: 8px 16px;
