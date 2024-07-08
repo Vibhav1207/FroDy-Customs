@@ -199,9 +199,10 @@ header {
   margin-left: 1rem;
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 25px; /* Circular ends */
   font-size: 1rem;
 }
+
 .search-container {
   margin: 1rem 0;
   display: flex;
