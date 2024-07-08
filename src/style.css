@@ -334,14 +334,19 @@ header {
   cursor: pointer;
 }
 
- .more-details {
-  position: absolute;
-  top: 10px; /* Adjust as needed */
-  right: 10px; /* Adjust as needed */
-  background-color: #fff; /* Optional: Adjust background color */
-  border: 1px solid #ccc; /* Optional: Adjust border */
-  border-radius: 4px; /* Optional: Adjust border radius */
-  padding: 5px 10px; /* Optional: Adjust padding */
+.more-details {
+  outline: none;
+  border: none;
+  border-radius: 14px;
+  background-color: rgb(247, 20, 20);
+  color: var(--bodyColor);
+  padding: 1px 2px;
+  font-weight: bolder;
+  margin: 10px 10 10px 10;
+  justify-content: center;
+  cursor: pointer;
+  top: 10px; 
+  right: 10px; 
 }
 .button-container {
   display: flex;
