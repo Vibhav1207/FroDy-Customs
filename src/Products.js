@@ -3,7 +3,15 @@ export const productsData = [
     id: 1,
     title: "BMW M4 CS Custom 3 Seat Adjustments",
     price: 2000,
-    description: "✨Features✨<br>✔ • Primary Color - Changing Primary Color & Animated Grills<br>✔ • Secondary Color - Changing Hub & Bonnet Animated Strips<br>✔ • Wheel Color - Changeable<br>✔ • 3 Seats 2 Doors - [2 Front Seat, 1 on Roof]<br>✔ • Quality with Graphics<br>Speaker Deck in Boot<br>Realistic Handling<br>Fully Debadged",
+    description: `✨Features✨<br>
+  ✔ • Primary Color - Changing Primary Color & Animated Grills<br>
+  ✔ • Secondary Color - Changing Hub & Bonnet Animated Strips<br>
+  ✔ • Wheel Color - Changeable<br>
+  ✔ • 3 Seats 2 Doors - [2 Front Seat, 1 on Roof]<br>
+  ✔ • Quality with Graphics<br>
+  Speaker Deck in Boot<br>
+  Realistic Handling<br>
+  Fully Debadged`,
     imageUrl: "./images/test.png",
     images: [
       "./images/test.png",
