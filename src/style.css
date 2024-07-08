@@ -279,6 +279,7 @@ header {
   box-shadow: var(--mainShadow);
   border-radius: 8px;
   overflow: hidden;
+  position: relative;
 }
 
 .img-container {
