@@ -703,7 +703,26 @@ header {
     display: flex;
     font-size: 0.8rem;
   }
-
+  .cart-btn {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  
+  .nav-icon {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .cart-items {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.2rem 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
   .nav-icon {
     font-size: 0.9rem;
   }
