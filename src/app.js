@@ -82,9 +82,9 @@ class UI {
           <div class="product-desc">
             <p class="product-title">${item.title}</p>
             <p class="product-price">$${item.price}</p>
-          </div>
+          </div class="button-container">
           <button class="btn add-to-cart" data-id="${item.id}">Add to Cart</button>
-          <button class="btn more-details" data-id="${item.id}">More Details</button>
+          <button class="btn more-details" data-id="${item.id}">ⓘ</button>
         </div>
       `;
     });

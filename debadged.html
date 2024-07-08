@@ -13,22 +13,18 @@
   <header>
     <nav class="navbar">
       <div class="nav-center container">
-        
         <input type="checkbox" id="menu-toggle" class="menu-toggle" />
         <label for="menu-toggle" class="menu-icon">
           <span></span>
           <span></span>
           <span></span>
         </label>
-
         <div class="nav-list-center">
           <ul class="nav-list">
             <li>Home</li>
           </ul>
         </div>
-
-        <h1 class="nav-title">FroDy Customs</h1>
-
+        <img class="nav-title" src="images/frodycustomslogo.png" alt="FroDy Customs Logo">
         <div class="nav-list-center">
           <ul class="nav-list">
             <li>Contact</li>
@@ -43,7 +39,6 @@
       </div>
     </nav>
   </header>
-
   <main>
     <section>
       <div class="search-container">
@@ -60,7 +55,6 @@
           </select>
         </div>
       </div>
-
       <div class="products">
         <h2 class="section-title">Products</h2>
         <div class="container">
@@ -71,8 +65,7 @@
       </div>
     </section>
   </main>
-
-  <<div id="product-modal" class="modal">
+  <div id="product-modal" class="modal">
     <span class="close-button">&times;</span>
     <div class="modal-content">
       <div class="modal-left">
@@ -89,7 +82,6 @@
       </div>
     </div>
   </div>
-
   <section class="cart-modal">
     <div class="backdrop"></div>
     <div class="cart">
@@ -106,7 +98,6 @@
       </div>
     </div>
   </section>
-
   <script type="module" src="./src/app.js"></script>
   <script>
     document.getElementById('price-filter').addEventListener('change', filterProductsByPrice);
@@ -114,16 +105,13 @@
     function filterProductsByPrice() {
       const selectedPriceRange = document.getElementById('price-filter').value;
       const products = document.querySelectorAll('.product');
-
       products.forEach(product => {
         const priceElement = product.querySelector('.product-price');
         const price = parseFloat(priceElement.textContent.replace('$', ''));
-
         if (selectedPriceRange === 'all') {
           product.style.display = 'block';
         } else {
           const [minPrice, maxPrice] = selectedPriceRange.split('-');
-
           if (maxPrice) {
             if (price >= parseFloat(minPrice) && price <= parseFloat(maxPrice)) {
               product.style.display = 'block';

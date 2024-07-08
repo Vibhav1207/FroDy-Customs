@@ -27,10 +27,23 @@
 body {
   color: var(--mainBlack);
   font-family: 'Poppins', sans-serif;
-  background-color: var(--bodyColor);
+  background: url('https://media.discordapp.net/attachments/1259385217047724095/1259771503722106930/bg_11.png?ex=668ce523&is=668b93a3&hm=4ad3263203e6889b58efb4c483515f61502c82e2c38813df65bfedc8caead513&=&format=webp&quality=lossless&width=840&height=473') no-repeat center center fixed;
+  background-size: cover;
   position: relative;
+  overflow: hidden;
+  overflow-y: scroll;
 }
-
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  filter: blur(10px);
+  z-index: -1;
+}
 header {
   position: sticky;
   top: 0;
@@ -84,9 +97,10 @@ header {
 }
 
 .nav-title {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
-  color: #849a65;
+  max-width: 200px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
 }
 
 .cart-btn {
@@ -319,7 +333,23 @@ header {
   box-shadow: var(--mainShadow);
   cursor: pointer;
 }
-
+.more-details {
+  outline: none;
+  border: none;
+  border-radius: 14px;
+  background-color: rgb(247, 20, 20);
+  color: var(--bodyColor);
+  padding: 1px 2px;
+  font-weight: bolder;
+  margin: 10px 10 10px 10;
+  justify-content: center;
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px; 
+}
 .add-to-cart:hover {
   opacity: 0.8;
 }
@@ -543,10 +573,7 @@ header {
     padding-left: 1rem;
   }
 
-  .nav-title {
-    font-size: 1.1rem;
-    padding-right: 4rem;
-  }
+
 
   .search-border .search {
     font-size: 0.9rem;
@@ -664,9 +691,6 @@ header {
     width: 10%;
   }
 
-  .nav-title {
-    padding: 0;
-  }
 
   .nav-list li {
     display: flex;
@@ -734,9 +758,6 @@ header {
     display: none;
   }
 
-  .nav-title {
-    font-size: 1.3rem;
-  }
 
   .cart-btn {
     display: flex;
@@ -845,9 +866,6 @@ header {
     display: flex;
   }
 
-  .nav-title {
-    font-size: 1.7rem;
-  }
 
   .nav-list li {
     font-size: 1.1rem;
@@ -977,7 +995,7 @@ header {
   width: 60%;
   max-width: 800px;
   display: flex;
-  background-color: rgb(65, 65, 65);
+  background: url('https://cdn.discordapp.com/attachments/1259385217047724095/1259771503722106930/bg_11.png?ex=668ce523&is=668b93a3&hm=4ad3263203e6889b58efb4c483515f61502c82e2c38813df65bfedc8caead513&') no-repeat center center fixed;
   border-radius: 8px;
 }
 
