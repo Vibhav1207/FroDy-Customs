@@ -3,8 +3,13 @@ export const productsData = [
     id: 1,
     title: "1 Car",
     price: 2000,
-    imageUrl:
+    description: "Description for 1 Car",
+    imageUrl: "./images/test.png",
+    images: [
       "./images/test.png",
+      "./images/test.png",
+      "./images/test.png"
+    ]
   },
 
   {

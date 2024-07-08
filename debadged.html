@@ -72,13 +72,20 @@
     </section>
   </main>
 
-  <div id="product-modal" class="modal">
+  <<div id="product-modal" class="modal">
+    <span class="close-button">&times;</span>
     <div class="modal-content">
-      <span class="close-button">&times;</span>
-      <div class="modal-details">
-        <h3 class="modal-title"></h3>
-        <img class="modal-image" src="" alt="Product Image" />
-        <p class="modal-price"></p>
+      <div class="modal-left">
+        <div class="image-slider">
+          <img class="modal-image" src="" alt="Product Image">
+          <!-- Add additional images here if needed -->
+        </div>
+      </div>
+      <div class="modal-right">
+        <h2 class="modal-title">Product Title</h2>
+        <p class="modal-description">Product Description</p>
+        <p class="modal-price">$0.00</p>
+        <button class="btn add-to-cart-modal">Add to Cart</button>
       </div>
     </div>
   </div>

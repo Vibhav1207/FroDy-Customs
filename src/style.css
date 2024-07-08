@@ -961,41 +961,71 @@ header {
 .modal {
   display: none;
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  z-index: 10;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .modal-content {
+  position: relative;
+  margin: 10% auto;
+  padding: 20px;
+  width: 60%;
+  max-width: 800px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.modal-title {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.modal-image {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-.modal-price {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
+  background-color: rgb(65, 65, 65);
+  border-radius: 8px;
 }
 
 .close-button {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
+  top: 10px;
+  right: 15px;
+  font-size: 28px;
+  font-weight: bold;
   cursor: pointer;
+}
+
+.modal-left, .modal-right {
+  flex: 1;
+  padding: 10px;
+}
+
+.modal-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-slider {
+  width: 100%;
+  height: auto;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+}
+
+.modal-title, .modal-description, .modal-price {
+  margin-bottom: 15px;
+}
+
+.add-to-cart-modal {
+  background-color: #f8c146;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.add-to-cart-modal:hover {
+  background-color: #f7b02d;
 }

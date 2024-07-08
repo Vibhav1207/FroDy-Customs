@@ -36,7 +36,11 @@ function showProductModal(product) {
 
   document.querySelector('.modal-title').textContent = product.title;
   document.querySelector('.modal-image').src = product.imageUrl;
+  document.querySelector('.modal-description').textContent = product.description;
   document.querySelector('.modal-price').textContent = `$${product.price}`;
+
+  const addToCartBtnModal = document.querySelector('.add-to-cart-modal');
+  addToCartBtnModal.dataset.id = product.id;
 }
 
 function closeProductModal() {
@@ -64,7 +68,7 @@ let cart = [];
 let buttonsDOM = [];
 
 class UI {
-  
+
   displayProducts(products) {
     let result = '';
 
@@ -80,6 +84,7 @@ class UI {
             <p class="product-price">$${item.price}</p>
           </div>
           <button class="btn add-to-cart" data-id="${item.id}">Add to Cart</button>
+          <button class="btn more-details" data-id="${item.id}">More Details</button>
         </div>
       `;
     });
@@ -87,11 +92,10 @@ class UI {
     productsDOM.innerHTML = result;
   }
 
-  
   getCartBtns() {
     const addCartBtns = [...document.querySelectorAll('.add-to-cart')];
     const moreDetailsBtns = [...document.querySelectorAll('.more-details')];
-    
+
     buttonsDOM = addCartBtns;
 
     addCartBtns.forEach((btn) => {
@@ -121,6 +125,31 @@ class UI {
         const product = Storage.getProducts(id);
         showProductModal(product);
       });
+    });
+
+    const addToCartBtnModal = document.querySelector('.add-to-cart-modal');
+    addToCartBtnModal.addEventListener('click', (e) => {
+      const id = e.target.dataset.id;
+      const product = Storage.getProducts(id);
+      
+      const isExist = cart.find((p) => p.id === id);
+
+      if (!isExist) {
+        const addedProduct = { ...product, quantity: 1 };
+        cart = [...cart, addedProduct];
+        Storage.saveCart(cart);
+        this.setCartValue(cart);
+        this.addCartItem(addedProduct);
+
+        // Update button text for the respective product
+        const productButton = buttonsDOM.find((btn) => parseInt(btn.dataset.id) === parseInt(id));
+        if (productButton) {
+          productButton.textContent = 'Added';
+          productButton.disabled = true;
+        }
+      }
+      
+      closeProductModal();
     });
   }
 
@@ -214,43 +243,41 @@ class UI {
   }
 
   clearCart() {
-    cart.forEach((cItem) => this.removeItem(cItem.id));
+    const cartItems = cart.map((item) => item.id);
+
+    cartItems.forEach((id) => this.removeItem(id));
+
     while (cartContent.children.length > 0) {
       cartContent.removeChild(cartContent.children[0]);
     }
-    closeModal();
   }
 
   removeItem(id) {
-    cart = cart.filter((c) => c.id !== id);
+    cart = cart.filter((item) => item.id !== id);
     this.setCartValue(cart);
     Storage.saveCart(cart);
-    const button = buttonsDOM.find((btn) => parseInt(btn.dataset.id) === parseInt(id));
-    button.textContent = 'Add to Cart';
-    button.disabled = false;
+
+    const button = this.getSingleButton(id);
+    if (button) {
+      button.disabled = false;
+      button.textContent = 'Add to Cart';
+    }
   }
 
-  searchItem() {
-    searchInput.addEventListener('input', (e) => {
-      const searchValue = e.target.value.toLowerCase();
-      const filteredProducts = productsData.filter((product) => {
-        return product.title.toLowerCase().includes(searchValue);
-      });
-      this.displayProducts(filteredProducts);
-      this.getCartBtns();
-    });
+  getSingleButton(id) {
+    return buttonsDOM.find((btn) => parseInt(btn.dataset.id) === parseInt(id));
   }
 }
 
-/*localStorage */
+/*================== Local Storage ====================*/
 class Storage {
   static saveProducts(products) {
     localStorage.setItem('products', JSON.stringify(products));
   }
 
   static getProducts(id) {
-    const _products = JSON.parse(localStorage.getItem('products'));
-    return _products.find((p) => p.id === parseInt(id));
+    const products = JSON.parse(localStorage.getItem('products')) || [];
+    return products.find((p) => p.id === parseInt(id));
   }
 
   static saveCart(cart) {
@@ -258,19 +285,32 @@ class Storage {
   }
 
   static getCart() {
-    return JSON.parse(localStorage.getItem('cart'));
+    return JSON.parse(localStorage.getItem('cart')) || [];
   }
 }
 
-/*Show products on DOM */
+/*===================== Search =========================*/
+const searchProduct = () => {
+  searchInput.addEventListener('input', (e) => {
+    const searchValue = e.target.value.trim().toLowerCase();
+    const filteredProducts = productsData.filter((p) =>
+      p.title.toLowerCase().includes(searchValue)
+    );
+    ui.displayProducts(filteredProducts);
+    ui.getCartBtns();
+  });
+};
+
+const ui = new UI();
+const products = new Products();
+
+/*===================== Events =========================*/
 document.addEventListener('DOMContentLoaded', () => {
-  const products = new Products();
   const productsData = products.getProducts();
-  const ui = new UI();
   ui.displayProducts(productsData);
+  Storage.saveProducts(productsData);
   ui.getCartBtns();
   ui.setUpApp();
   ui.cartLogic();
-  ui.searchItem();
-  Storage.saveProducts(productsData);
+  searchProduct();
 });
