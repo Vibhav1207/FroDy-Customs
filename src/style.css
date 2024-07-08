@@ -1076,49 +1076,11 @@ header {
   background-color: #f7b02d;
 }
 
-.modal {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-.modal-left, .modal-right {
-  flex: 1;
-  padding: 10px;
-}
-
-.image-slider {
-  max-width: 100%;
-}
-
-.modal-image {
-  width: 100%;
-  height: auto;
-}
-
-.modal-title {
-  font-size: 24px;
-}
-
-.modal-description {
-  font-size: 16px;
-}
-
 .modal-price {
   font-size: 20px;
-  color: #333;
+  color: goldenrod;
 }
 
-.btn {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
 
 /* Responsive styling for mobile */
 @media (max-width: 768px) {
