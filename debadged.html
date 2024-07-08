@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="To be given" />
+  <meta name="keywords" content="cars, discord, custom, custom parts, html, css, javascript, js" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css" integrity="sha512-0JEaZ1BDR+FsrPtq5Ap9o05MUwn8lKs2GiCcRVdOH0qDcUcCoMKi8fDVJ9gnG8VN1Mp/vuWw2sMO0SQom5th4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./src/style.css" />
+  <title>FroDy Customs</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-center container">
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <div class="nav-list-center">
+          <ul class="nav-list">
+            <li>Home</li>
+          </ul>
+        </div>
+
+        <h1 class="nav-title">FroDy Customs</h1>
+
+        <div class="nav-list-center">
+          <ul class="nav-list">
+            <li>Contact</li>
+            <div class="cart-btn">
+              <span class="nav-icon">
+                <i class="ri-shopping-cart-line"></i>
+              </span>
+              <div class="cart-items">0</div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="search-container">
+        <div class="search-border container">
+          <i class="search-icon ri-search-2-line"></i>
+          <input class="search" type="search" placeholder="Search" />
+          <select id="price-filter" class="price-filter">
+            <option value="all">All Prices</option>
+            <option value="0-50">$0 - $50</option>
+            <option value="51-100">$51 - $100</option>
+            <option value="101-200">$101 - $200</option>
+            <option value="201-500">$201 - $500</option>
+            <option value="500+">$500+</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="products">
+        <h2 class="section-title">Products</h2>
+        <div class="container">
+          <div class="products-center">
+            <!-- Products will be inserted here -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="product-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <div class="modal-details">
+        <h3 class="modal-title"></h3>
+        <img class="modal-image" src="" alt="Product Image" />
+        <p class="modal-price"></p>
+      </div>
+    </div>
+  </div>
+
+  <section class="cart-modal">
+    <div class="backdrop"></div>
+    <div class="cart">
+      <h3 class="cart-title">Your Cart</h3>
+      <div class="cart-content"></div>
+      <div class="cart-footer">
+        <div>
+          <span class="cart-total">Total price: $90</span>
+        </div>
+        <div>
+          <button class="btn clear-cart">Clear</button>
+          <button class="btn cart-item-confirm">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="module" src="./src/app.js"></script>
+  <script>
+    document.getElementById('price-filter').addEventListener('change', filterProductsByPrice);
+
+    function filterProductsByPrice() {
+      const selectedPriceRange = document.getElementById('price-filter').value;
+      const products = document.querySelectorAll('.product');
+
+      products.forEach(product => {
+        const priceElement = product.querySelector('.product-price');
+        const price = parseFloat(priceElement.textContent.replace('$', ''));
+
+        if (selectedPriceRange === 'all') {
+          product.style.display = 'block';
+        } else {
+          const [minPrice, maxPrice] = selectedPriceRange.split('-');
+
+          if (maxPrice) {
+            if (price >= parseFloat(minPrice) && price <= parseFloat(maxPrice)) {
+              product.style.display = 'block';
+            } else {
+              product.style.display = 'none';
+            }
+          } else {
+            if (price >= parseFloat(minPrice)) {
+              product.style.display = 'block';
+            } else {
+              product.style.display = 'none';
+            }
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>
