@@ -175,9 +175,10 @@ header {
   align-items: center;
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 25px; /* This gives the search bar rounded ends */
   background-color: #333; 
 }
+
 
 .search-icon {
   margin-right: 0.5rem;
@@ -190,7 +191,9 @@ header {
   outline: none;
   background-color: #333; 
   color: #fff; 
+  border-radius: 25px; /* This makes the input field's ends rounded */
 }
+
 
 .price-filter {
   margin-left: 1rem;
