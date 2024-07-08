@@ -9,6 +9,16 @@
   text-decoration: none;
   list-style: none;
 }
+@font-face {
+  font-family: 'TratexVit';
+  src: url('/TratexVit.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.description {
+  font-family: 'TratexVit', sans-serif;
+}
 
 :root {
   --primaryColor: rgba(247, 94, 94, 0.99);
