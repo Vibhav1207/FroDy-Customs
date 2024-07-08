@@ -16,9 +16,12 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 .description {
-  font-family: 'TratexVit', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
+
 
 :root {
   --primaryColor: rgba(247, 94, 94, 0.99);
