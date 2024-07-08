@@ -36,7 +36,7 @@ function showProductModal(product) {
 
   document.querySelector('.modal-title').textContent = product.title;
   document.querySelector('.modal-image').src = product.imageUrl;
-  document.querySelector('.modal-description').textContent = product.description;
+  document.querySelector('.modal-description').innerHTML = product.description;
   document.querySelector('.modal-price').textContent = `$${product.price}`;
 
   const addToCartBtnModal = document.querySelector('.add-to-cart-modal');
@@ -316,3 +316,6 @@ document.addEventListener('DOMContentLoaded', () => {
   ui.cartLogic();
   searchProduct();
 });
+
+const productDescription = productsData[0].description.replace(/\n/g, '<br>');
+document.getElementById('product-description').innerHTML = productDescription;
