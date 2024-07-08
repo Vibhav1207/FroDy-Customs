@@ -74,18 +74,20 @@ class UI {
 
     products.forEach((item) => {
       result += `
-        <div class="product">
-          <div class="img-container">
-            <img class="product-img" src="${item.imageUrl}" alt="${item.title}" />
-          
-          </div>
-          <div class="product-desc">
-            <p class="product-title">${item.title}</p>
-            <p class="product-price">$${item.price}</p>
-          </div class="button-container">
-          <button class="btn add-to-cart" data-id="${item.id}">Add to Cart</button>
-          <button class="btn more-details" data-id="${item.id}">ⓘ</button>
-        </div>
+       <div class="product">
+  <div class="img-container">
+    <img class="product-img" src="${item.imageUrl}" alt="${item.title}" />
+  </div>
+  <div class="product-desc">
+    <p class="product-title">${item.title}</p>
+    <p class="product-price">$${item.price}</p>
+  </div>
+  <div class="button-container">
+    <button class="btn add-to-cart" data-id="${item.id}">Add to Cart</button>
+  </div>
+  <button class="btn more-details" data-id="${item.id}">ⓘ</button>
+</div>
+
       `;
     });
 
