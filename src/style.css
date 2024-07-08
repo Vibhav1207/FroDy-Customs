@@ -333,24 +333,16 @@ header {
   box-shadow: var(--mainShadow);
   cursor: pointer;
 }
-.more-details {
-  outline: none;
-  border: none;
-  border-radius: 14px;
-  background-color: rgb(247, 20, 20);
-  color: var(--bodyColor);
-  padding: 1px 2px;
-  font-weight: bolder;
-  margin: 10px 10 10px 10;
-  justify-content: center;
-  cursor: pointer;
+
+ .more-details {
   position: absolute;
   top: 10px; /* Adjust as needed */
   right: 10px; /* Adjust as needed */
-  
-  padding: 5px 10px;  
+  background-color: #fff; /* Optional: Adjust background color */
+  border: 1px solid #ccc; /* Optional: Adjust border */
+  border-radius: 4px; /* Optional: Adjust border radius */
+  padding: 5px 10px; /* Optional: Adjust padding */
 }
-
 .button-container {
   display: flex;
   justify-content: flex-start;
