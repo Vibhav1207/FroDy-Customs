@@ -268,6 +268,7 @@ header {
   border-radius: 8px;
 }
 
+
 .product {
   width: 23.6rem;
   display: flex;
@@ -335,23 +336,15 @@ header {
 }
 
 .more-details {
-  outline: none;
-  border: none;
   border-radius: 14px;
   background-color: rgb(247, 20, 20);
-  color: var(--bodyColor);
   padding: 1px 2px;
-  font-weight: bolder;
-  margin: 10px 10 10px 10;
-  justify-content: center;
-  cursor: pointer;
-  top: 10px; 
-  right: 10px; 
+  margin: 10px 0;
 }
 .button-container {
   display: flex;
   justify-content: flex-start;
-  gap: 10px; 
+  gap: 10px;
 }
 .add-to-cart:hover {
   opacity: 0.8;
