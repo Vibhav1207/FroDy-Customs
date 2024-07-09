@@ -40,7 +40,7 @@
 body {
   color: var(--mainBlack);
   font-family: 'Poppins', sans-serif;
-  background: url('https://media.discordapp.net/attachments/1259385217047724095/1259771503722106930/bg_11.png?ex=668ce523&is=668b93a3&hm=4ad3263203e6889b58efb4c483515f61502c82e2c38813df65bfedc8caead513&=&format=webp&quality=lossless&width=840&height=473') no-repeat center center fixed;
+  background: url('https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/background.png?raw=true') no-repeat center center fixed;
   background-size: cover;
   position: relative;
   overflow: hidden;
