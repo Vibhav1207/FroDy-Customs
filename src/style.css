@@ -1107,11 +1107,11 @@ header {
   }
 
   .modal-title {
-    font-size: 10px;
+    font-size: 20px;
   }
 
   .modal-description {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .modal-price {
@@ -1122,4 +1122,8 @@ header {
     font-size: 14px;
     padding: 8px 16px;
   }
+}
+.modal-image {
+  width: 100%;
+  height: auto;
 }
