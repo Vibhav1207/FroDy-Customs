@@ -1101,14 +1101,17 @@ header {
     padding: 10px;
   }
 
+  .modal-left, .modal-right {
+    width: 100%;
+    padding: 5px;
+  }
+
   .modal-left {
     order: 1;
-    padding: 5px;
   }
 
   .modal-right {
     order: 2;
-    padding: 5px;
   }
 
   .modal-title {
@@ -1131,5 +1134,11 @@ header {
   .modal-image {
     width: 100%;
     height: auto;
+    display: block;
+  }
+
+  .image-slider {
+    display: flex;
+    justify-content: center;
   }
 }
