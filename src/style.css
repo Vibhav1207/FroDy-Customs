@@ -1095,14 +1095,19 @@ header {
 }
 
 
-/* Responsive styling for mobile */
 @media (max-width: 768px) {
   .modal {
     flex-direction: column;
     padding: 10px;
   }
 
-  .modal-left, .modal-right {
+  .modal-left {
+    order: 1;
+    padding: 5px;
+  }
+
+  .modal-right {
+    order: 2;
     padding: 5px;
   }
 
@@ -1122,8 +1127,9 @@ header {
     font-size: 14px;
     padding: 8px 16px;
   }
-}
-.modal-image {
-  width: 200%;
-  height: 200px;
+
+  .modal-image {
+    width: 100%;
+    height: auto;
+  }
 }
