@@ -903,11 +903,18 @@ header {
 
   .nav-list {
     display: flex;
+    font: 1em sans-serif;
+    color: #ff0000;
   }
 
 
   .nav-list li {
     font-size: 1.1rem;
+    font: 1em sans-serif;
+  }
+  .nav-list li.active {
+    font-weight: bold; 
+    color: red;
   }
 
   .nav-icon {
