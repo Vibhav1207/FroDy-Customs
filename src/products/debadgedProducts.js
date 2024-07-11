@@ -15,8 +15,6 @@ export const productsData = [
     imageUrl: "./images/test.png",
     images: [
       "./images/test.png",
-      "./images/test.png",
-      "./images/test.png"
     ]
   },
 

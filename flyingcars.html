@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -7,6 +6,7 @@
   <meta name="keywords" content="cars, discord, custom, custom parts, html, css, javascript, js" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css" integrity="sha512-0JEaZ1BDR+FsrPtq5Ap9o05MUwn8lKs2GiCcRVdOH0qDcUcCoMKi8fDVJ9gnG8VN1Mp/vuWw2sMO0SQom5th4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./src/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=TratexVit&display=swap" rel="stylesheet">
   <title>FroDy Customs</title>
 </head>
 <body>
@@ -19,22 +19,23 @@
           <span></span>
           <span></span>
         </label>
+        <img class="nav-title" src="assets/images/frodycustomslogo-206x116.png" alt="FroDy Customs Logo">
         <div class="nav-list-center">
           <ul class="nav-list">
             <li>Home</li>
+            <li>Debadged Cars</li>
+            <li >Custom Cars</li>
+            <li class="active">Flying Cars</li>
+            <li>Free Cars</li>
+            <li>Engine Sound</li>
+            <li>About</li>
           </ul>
         </div>
-        <img class="nav-title" src="images/frodycustomslogo.png" alt="FroDy Customs Logo">
-        <div class="nav-list-center">
-          <ul class="nav-list">
-            <li>Contact</li>
-            <div class="cart-btn">
-              <span class="nav-icon">
-                <i class="ri-shopping-cart-line"></i>
-              </span>
-              <div class="cart-items">0</div>
-            </div>
-          </ul>
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="ri-shopping-cart-line"></i>
+          </span>
+          <div class="cart-items">0</div>
         </div>
       </div>
     </nav>
@@ -98,7 +99,7 @@
       </div>
     </div>
   </section>
-  <script type="module" src="./src/app.js"></script>
+  <script type="module" src="./src/flyingcars.js"></script>
   <script>
     document.getElementById('price-filter').addEventListener('change', filterProductsByPrice);
 
