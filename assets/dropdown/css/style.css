@@ -263,3 +263,17 @@
   transition: none !important; }
 
 
+  #carouselExample .carousel-inner {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExample .carousel-item {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: gray;
+    border: 2px solid white;
+}
