@@ -1,9 +1,9 @@
 export const productsData = [
     {
       id: 1,
-      title: "BMW M4 CS Custom 3 Seat Adjustments",
-      price: 2000,
-      description: `✨Audi RS7 Golden Palette✨<br>
+      title: "Audi RS7 Golden Palette",
+      price: 12$,
+      description: `✨Debadged✨<br>
   ✔ • Custom Nameplate [Changeable]<br>
   ✔ • Custom Realistic Handling [Included]<br>
   ✔ • Working Dials [Holographic]<br>
@@ -12,7 +12,6 @@ export const productsData = [
   ✔ • 4 Doors 4 Seats<br>
   ✔ • Custom Engine Sound<br>
   ✔ • Auto Spoiler<br>
-  ✔ • Fully Debadged [Removed Logos/Manufacturing]<br>
       Quality Interior`,
       imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/goldenpalette.png",
       images: [
