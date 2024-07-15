@@ -14,7 +14,7 @@ export const productsData = [
   ✔ • Auto Spoiler<br>
   ✔ • Fully Debadged [Removed Logos/Manufacturing]<br>
       Quality Interior`,
-      imageUrl: "./images/test.png",
+      imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/goldenpalette.png",
       images: [
         "./images/test.png",
       ]
