@@ -13,7 +13,7 @@ export const productsData = [
   ✔ • Custom Engine Sound<br>
   ✔ • Auto Spoiler<br>
   ✔ • Fully Debadged [Removed Logos/Manufacturing]<br>
-  ✔ • Quality Interior,`
+  ✔ • Quality Interior`,
       imageUrl: "./images/test.png",
       images: [
         "./images/test.png",
