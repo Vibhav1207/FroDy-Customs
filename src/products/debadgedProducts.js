@@ -9,9 +9,9 @@ export const productsData = [
   ✔ • Wheel Color - Changeable<br>
   ✔ • 3 Seats 2 Doors - [2 Front Seat, 1 on Roof]<br>
   ✔ • Quality with Graphics<br>
-  Speaker Deck in Boot<br>
-  Realistic Handling<br>
-  Fully Debadged`,
+       Speaker Deck in Boot<br>
+       Realistic Handling<br>
+       Fully Debadged`,
     imageUrl: "./images/test.png",
     images: [
       "./images/test.png",
