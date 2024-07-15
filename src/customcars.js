@@ -2,7 +2,7 @@
 
 /*==================== ProductsData ===================*/
 // Import productsData
-import { productsData } from './products/customcardProducts.js';
+import { productsData } from './products/customcarsProducts.js';
 
 /*======================== Modal ======================*/
 const cartBtn = document.querySelector('.cart-btn'),
