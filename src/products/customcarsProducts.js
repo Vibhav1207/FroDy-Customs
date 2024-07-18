@@ -2,7 +2,7 @@ export const productsData = [
   {
     id: 1,
     title: "BMW M4 CS Custom 3 Seat Adjustments",
-    price: 15$,
+    price: 15,
     description: `✨Features✨<br>
   ✔ • Primary Color - Changing Primary Color & Animated Grills<br>
   ✔ • Secondary Color - Changing Hub & Bonnet Animated Strips<br>
@@ -21,28 +21,28 @@ export const productsData = [
   {
     id: 2,
     title: "ABT Jumper",
-    price: 15$,
+    price: 15,
     imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/audiabt1.png",
   },
 
   {
     id: 3,
     title: "Homie Challenger",
-    price: 15$,
+    price: 15,
     imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/challengercustom.png",
   },
 
   {
     id: 4,
     title: "Food Truck",
-    price: 15$,
+    price: 15,
     imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/frodyfoodtruck.png",
   },
 
   {
     id: 5,
     title: "E46 Car Meetup",
-    price: 15$,
+    price: 15,
     imageUrl:
       "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/e46nfs.png",
   },
@@ -50,7 +50,29 @@ export const productsData = [
   {
     id: 6,
     title: "E60 Itachi",
-    price: 15$,
+    price: 15,
     imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/e60itachi.png",
   },
+
+  {
+    id: 7,
+    title: "GT Demon",
+    price: 15,
+    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/gtdemon.png",
+  },
+
+  {
+    id: 8,
+    title: "Golden RS7",
+    price: 15,
+    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/goldens.png",
+  },
+
+  {
+    id: 9,
+    title: "X7 Custom",
+    price: 15,
+    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/x7.jpg",
+  },
 ];
+
