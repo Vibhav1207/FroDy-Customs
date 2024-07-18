@@ -20,37 +20,37 @@ export const productsData = [
 
   {
     id: 2,
-    title: "2 Car",
-    price: 300,
-    imageUrl: "./images/test.png",
+    title: "ABT Jumper",
+    price: 15$,
+    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/audiabt1.png",
   },
 
   {
     id: 3,
-    title: "3 Car",
-    price: 300,
-    imageUrl: "./images/test.png",
+    title: "Homie Challenger",
+    price: 15$,
+    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/challengercustom.png",
   },
 
   {
     id: 4,
-    title: "4 Car",
-    price: 95,
-    imageUrl: "./images/test.png",
+    title: "Food Truck",
+    price: 15$,
+    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/frodyfoodtruck.png",
   },
 
   {
     id: 5,
-    title: "5 Car",
-    price: 3500,
+    title: "E46 Car Meetup",
+    price: 15$,
     imageUrl:
-      "./images/test.png",
+      "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/e46nfs.png",
   },
 
   {
     id: 6,
-    title: "5 Car",
-    price: 12,
-    imageUrl: "./images/test.png",
+    title: "E60 Itachi",
+    price: 15$,
+    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/e60itachi.png",
   },
 ];
