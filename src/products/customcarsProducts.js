@@ -2,8 +2,8 @@ export const productsData = [
   {
     id: 1,
     title: "BMW M4 CS Custom 3 Seat Adjustments",
-    price: 2000,
-    description: `✨TYOEST✨<br>
+    price: 15$,
+    description: `✨Features✨<br>
   ✔ • Primary Color - Changing Primary Color & Animated Grills<br>
   ✔ • Secondary Color - Changing Hub & Bonnet Animated Strips<br>
   ✔ • Wheel Color - Changeable<br>
@@ -12,7 +12,7 @@ export const productsData = [
        Speaker Deck in Boot<br>
        Realistic Handling<br>
        Fully Debadged`,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/goldenpalette.png",
+    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/m4cs.png",
     images: [
       "./images/test.png",
     ]
