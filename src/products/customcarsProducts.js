@@ -12,7 +12,7 @@ export const productsData = [
        Speaker Deck in Boot<br>
        Realistic Handling<br>
        Fully Debadged`,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/m4cs.png",
+    imageUrl: "./images/m4cs.png",
     images: [
       "./images/test.png",
     ]
@@ -22,21 +22,21 @@ export const productsData = [
     id: 2,
     title: "ABT Jumper",
     price: 15,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/audiabt1.png",
+    imageUrl: "./images/audiabt1.png",
   },
 
   {
     id: 3,
     title: "Homie Challenger",
     price: 15,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/challengercustom.png",
+    imageUrl: "./images/challengercustom.png",
   },
 
   {
     id: 4,
     title: "Food Truck",
     price: 15,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/frodyfoodtruck.png",
+    imageUrl: "./images/frodyfoodtruck.png",
   },
 
   {
@@ -44,35 +44,35 @@ export const productsData = [
     title: "E46 Car Meetup",
     price: 15,
     imageUrl:
-      "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/e46nfs.png",
+      "./images/e46nfs.png",
   },
 
   {
     id: 6,
     title: "E60 Itachi",
     price: 15,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/e60itachi.png",
+    imageUrl: "./images/e60itachi.png",
   },
 
   {
     id: 7,
     title: "GT Demon",
     price: 15,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/gtdemon.png",
+    imageUrl: "./images/gtdemon.png",
   },
 
   {
     id: 8,
     title: "Golden RS7",
     price: 15,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/goldens.png",
+    imageUrl: "./images/goldens.png",
   },
 
   {
     id: 9,
     title: "X7 Custom",
     price: 15,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/x7.jpg",
+    imageUrl: "./images/x7.jpg",
   },
 ];
 
