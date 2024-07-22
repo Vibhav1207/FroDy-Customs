@@ -72,5 +72,12 @@ export const productsData = [
     price: 35,
     imageUrl: "./images/customcars/g63custom.png",
   },
+
+  {
+    id: 11,
+    title: "Alfa Romeo Custom",
+    price: 15,
+    imageUrl: "./images/customcars/alfaromeo.png",
+  },
 ];
 
