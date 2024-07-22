@@ -51,7 +51,8 @@ export const productsData = [
     id: 6,
     title: "Lamborghini Countach",
     price: 10,
-    imageUrl: "./images/debadged/countach.png",
+    imageUrl:
+      "./images/debadged/countach.png",
   },
 
   {
