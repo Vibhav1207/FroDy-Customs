@@ -12,7 +12,7 @@ export const productsData = [
        Speaker Deck in Boot<br>
        Realistic Handling<br>
        Fully Debadged`,
-    imageUrl: "./images/m4cs.png",
+    imageUrl: "./images/customcars/m4cs.png",
     images: [
       "./images/test.png",
     ]
