@@ -1,20 +1,20 @@
 export const productsData = [
     {
       id: 1,
-      title: "BMW M4 CS Custom 3 Seat Adjustments",
-      price: 2000,
+      title: "Rolls Royce Ghost",
+      price: 0,
       description: ``,
-      imageUrl: "./images/test.png",
+      imageUrl: "./images/freecars/ghost.png",
       images: [
-        "./images/test.png",
+        "./images/freecars/ghost.png",
       ]
     },
   
     {
       id: 2,
-      title: "2 Car",
-      price: 300,
-      imageUrl: "./images/test.png",
+      title: "Mustang GT500 Gold",
+      price: 0,
+      imageUrl: "./images/freecars/stang.png",
     },
   
     {
