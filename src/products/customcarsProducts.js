@@ -22,21 +22,21 @@ export const productsData = [
     id: 2,
     title: "ABT Jumper",
     price: 15,
-    imageUrl: "./images/audiabt1.png",
+    imageUrl: "./images/customcars/audiabt1.png",
   },
 
   {
     id: 3,
     title: "Homie Challenger",
     price: 15,
-    imageUrl: "./images/challengercustom.png",
+    imageUrl: "./images/customcars/challengercustom.png",
   },
 
   {
     id: 4,
     title: "Food Truck",
     price: 15,
-    imageUrl: "./images/frodyfoodtruck.png",
+    imageUrl: "./images/customcars/frodyfoodtruck.png",
   },
 
   {
@@ -44,35 +44,35 @@ export const productsData = [
     title: "E46 Car Meetup",
     price: 15,
     imageUrl:
-      "./images/e46nfs.png",
+      "./images/customcars/e46nfs.png",
   },
 
   {
     id: 6,
     title: "E60 Itachi",
     price: 15,
-    imageUrl: "./images/e60itachi.png",
+    imageUrl: "./images/customcars/e60itachi.png",
   },
 
   {
     id: 7,
     title: "GT Demon",
     price: 15,
-    imageUrl: "./images/gtdemon.png",
+    imageUrl: "./images/customcars/gtdemon.png",
   },
 
   {
     id: 8,
     title: "Golden RS7",
     price: 15,
-    imageUrl: "./images/goldens.png",
+    imageUrl: "./images/customcars/goldens.png",
   },
 
   {
     id: 9,
     title: "X7 Custom",
     price: 15,
-    imageUrl: "./images/x7.jpg",
+    imageUrl: "./images/customcars/x7.jpg",
   },
 ];
 
