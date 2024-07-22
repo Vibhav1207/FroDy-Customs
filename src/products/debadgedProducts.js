@@ -155,9 +155,45 @@ export const productsData = [
   },
 
   {
-    id: 14,
-    title: "Chevrolette Mantaray 2024",
+    id: 22,
+    title: "Audi RS Avant",
     price: 12,
-    imageUrl: "./images/debadged/manray.jpg",
+    imageUrl: "./images/debadged/rsavant.jpg",
+  },
+
+  {
+    id: 23,
+    title: "Lexus RX 2024",
+    price: 12,
+    imageUrl: "./images/debadged/rx2024.png",
+  },
+
+  {
+    id: 24,
+    title: "Audi TTRS",
+    price: 12,
+    imageUrl: "./images/debadged/TTRS2.png",
+  },
+
+  {
+    id: 25,
+    title: "Lamborghini Urus WB 2024",
+    price: 12,
+    imageUrl:
+      "./images/debadged/uruswb.png",
+  },
+
+  {
+    id: 26,
+    title: "Range Rover Velar",
+    price: 12,
+    imageUrl: "./images/debadged/velar.png",
+  },
+
+  {
+    id: 27,
+    title: "Lexus Wald",
+    price: 12,
+    imageUrl: "./images/debadged/wald5002.png",
   },
 ];

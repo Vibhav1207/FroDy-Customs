@@ -74,5 +74,12 @@ export const productsData = [
     price: 15,
     imageUrl: "./images/customcars/x7.jpg",
   },
+
+  {
+    id: 10,
+    title: "Mercedes AMG G63 Custom",
+    price: 35,
+    imageUrl: "./images/customcars/g63custom.jpg",
+  },
 ];
 
