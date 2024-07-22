@@ -20,37 +20,44 @@ export const productsData = [
 
   {
     id: 2,
-    title: "2 Car",
-    price: 300,
-    imageUrl: "./images/test.png",
+    title: "Subaru BRZ",
+    price: 10,
+    imageUrl: "./images/debadged/brz.png",
   },
 
   {
     id: 3,
-    title: "3 Car",
-    price: 300,
-    imageUrl: "./images/test.png",
+    title: "Dodge Charger",
+    price: 10,
+    imageUrl: "./images/debadged/charger.png",
   },
 
   {
     id: 4,
-    title: "4 Car",
-    price: 95,
-    imageUrl: "./images/test.png",
+    title: "Dodge Charger Bodykit",
+    price: 10,
+    imageUrl: "./images/debadged/chargerbodykit.png",
   },
 
   {
     id: 5,
-    title: "5 Car",
-    price: 3500,
+    title: "Mercedes AMG CLS63",
+    price: 10,
     imageUrl:
-      "./images/test.png",
+      "./images/debadged/cls63.png",
   },
 
   {
     id: 6,
-    title: "5 Car",
-    price: 12,
-    imageUrl: "./images/test.png",
+    title: "Lamborghini Countach",
+    price: 10,
+    imageUrl: "./images/debadged/countach.png",
+  },
+
+  {
+    id: 7,
+    title: "Cadillac CTSV",
+    price: 10,
+    imageUrl: "./images/debadged/ctsv.png",
   },
 ];
