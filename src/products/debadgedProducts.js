@@ -1,20 +1,11 @@
 export const productsData = [
   {
     id: 1,
-    title: "BMW M4 CS Custom 3 Seat Adjustments",
-    price: 15,
-    description: `✨Features✨<br>
-  ✔ • Primary Color - Changing Primary Color & Animated Grills<br>
-  ✔ • Secondary Color - Changing Hub & Bonnet Animated Strips<br>
-  ✔ • Wheel Color - Changeable<br>
-  ✔ • 3 Seats 2 Doors - [2 Front Seat, 1 on Roof]<br>
-  ✔ • Quality with Graphics<br>
-       Speaker Deck in Boot<br>
-       Realistic Handling<br>
-       Fully Debadged`,
-    imageUrl: "https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/goldenpalette.png",
+    title: "BMW i7",
+    price: 10,
+    imageUrl: "./images/debadged/i7.png",
     images: [
-      "./images/test.png",
+      "./images/debadged/i7.png",
     ]
   },
 
@@ -22,21 +13,21 @@ export const productsData = [
     id: 2,
     title: "Subaru BRZ",
     price: 10,
-    imageUrl: "./images/debadged/brz.png",
+    imageUrl: "./images/debadged/brz.jpg",
   },
 
   {
     id: 3,
     title: "Dodge Charger",
     price: 10,
-    imageUrl: "./images/debadged/charger.png",
+    imageUrl: "./images/debadged/charger.jpg",
   },
 
   {
     id: 4,
     title: "Dodge Charger Bodykit",
     price: 10,
-    imageUrl: "./images/debadged/chargerbodykit.png",
+    imageUrl: "./images/debadged/chargerbodykit.jpg",
   },
 
   {
@@ -58,6 +49,6 @@ export const productsData = [
     id: 7,
     title: "Cadillac CTSV",
     price: 10,
-    imageUrl: "./images/debadged/ctsv.png",
+    imageUrl: "./images/debadged/ctsv.jpg",
   },
 ];
