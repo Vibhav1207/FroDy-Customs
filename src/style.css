@@ -1151,3 +1151,20 @@ header {
 }
 
 
+.nav-list a {
+  color: black; /* Set default link color to black */
+  font-weight: bold; /* Make all links bold */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.nav-list a:hover {
+  color: red; /* Optional: Hover color change if desired */
+}
+
+.nav-list .active a {
+  color: red; /* Set active link color to red */
+}
+
+.nav-list a:visited {
+  color: white; /* Ensures visited links remain black */
+}
