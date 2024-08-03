@@ -1168,3 +1168,53 @@ header {
 .nav-list a:visited {
   color: white; /* Ensures visited links remain black */
 }
+
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+
+.btn.pay-with-paypal {
+  background-color: #ffc439;
+  color: #000;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background: url('https://github.com/Vibhav1207/FroDy-Customs/blob/main/images/background.png?raw=true') no-repeat center center fixed;
+  background-size: cover;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close-button {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

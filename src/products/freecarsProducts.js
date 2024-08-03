@@ -5,9 +5,8 @@ export const productsData = [
     price: 0,
     description: ``,
     imageUrl: "./images/freecars/ghost.png",
-    images: [
-      "./images/freecars/ghost.png",
-    ]
+     paypalLink1: "https://www.paypal.com/link1-product1",
+   preview: "https://www.paypal.com/link2-product1"
   },
 
   {
@@ -15,6 +14,8 @@ export const productsData = [
     title: "Mustang GT500 Gold",
     price: 0,
     imageUrl: "./images/freecars/stang.png",
+     paypalLink1: "https://www.paypal.com/link1-product1",
+   preview: "https://www.paypal.com/link2-product1"
   },
 
 ];
