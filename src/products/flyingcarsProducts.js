@@ -5,7 +5,7 @@ export const productsData = [
       price: 16,
       description: ``,
       imageUrl: "./images//flying/720s.jpg",
-       paypalLink1: "https://www.paypal.com/link1-product1",
+       paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
   
@@ -14,7 +14,7 @@ export const productsData = [
       title: "HighTide F5",
       price: 16,
       imageUrl: "./images//flying/F5.png",
-       paypalLink1: "https://www.paypal.com/link1-product1",
+       paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
   
@@ -23,7 +23,7 @@ export const productsData = [
       title: "Dodge Charger",
       price: 16,
       imageUrl: "./images//flying/flyingcharger.jpg",
-       paypalLink1: "https://www.paypal.com/link1-product1",
+       paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
   
@@ -32,7 +32,7 @@ export const productsData = [
       title: "Dodge Donk Charger",
       price: 16,
       imageUrl: "./images//flying/flyingdonk.jpg",
-       paypalLink1: "https://www.paypal.com/link1-product1",
+       paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
   
@@ -42,7 +42,7 @@ export const productsData = [
       price: 16,
       imageUrl:
         "./images//flying/gt3s2.jpg",
-         paypalLink1: "https://www.paypal.com/link1-product1",
+         paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
   
@@ -51,7 +51,7 @@ export const productsData = [
       title: "Pagani Utopia 2024",
       price: 16,
       imageUrl: "./images//flying/utopia2024.jpg",
-       paypalLink1: "https://www.paypal.com/link1-product1",
+       paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
 
@@ -60,7 +60,7 @@ export const productsData = [
       title: "XSeries",
       price: 16,
       imageUrl: "./images//flying/X4.jpg",
-       paypalLink1: "https://www.paypal.com/link1-product1",
+       paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
   
@@ -70,7 +70,7 @@ export const productsData = [
       price: 16,
       imageUrl:
         "./images//flying/bmwm8.png",
-         paypalLink1: "https://www.paypal.com/link1-product1",
+         paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
   
@@ -79,7 +79,7 @@ export const productsData = [
       title: "BMW M3",
       price: 16,
       imageUrl: "./images//flying/bmwm3.png",
-       paypalLink1: "https://www.paypal.com/link1-product1",
+       paypalLink1: "https://discord.gg/c9ypXkTfW2",
    preview: "https://www.paypal.com/link2-product1"
     },
   ];
