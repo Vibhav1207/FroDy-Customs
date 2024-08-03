@@ -187,7 +187,7 @@ header {
   display: flex;
   align-items: center;
   padding: 0.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ff0000;
   border-radius: 25px; /* This gives the search bar rounded ends */
   background-color: #333; 
 }
@@ -1218,3 +1218,4 @@ header {
   text-decoration: none;
   cursor: pointer;
 }
+
