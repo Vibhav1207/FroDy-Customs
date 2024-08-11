@@ -40,10 +40,15 @@ function showProductModal(product) {
   document.querySelector('.modal-description').innerHTML = product.description.replace(/\n/g, '<br>');
   document.querySelector('.modal-price').textContent = `$${product.price}`;
 
-  // Set the Preview button link directly
+  // Set the Preview button link
   const previewButton = document.querySelector('.modal-right .btn.add-to-cart');
-  previewButton.setAttribute('href', product.productLink);
-  previewButton.setAttribute('target', '_blank'); // Ensures it opens in a new tab
+  previewButton.href = product.productLink;
+
+  // Attach event listener to the Preview button
+  previewButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default link behavior
+    window.open(product.productLink, '_blank'); // Open in a new tab
+  });
 }
 
 function closeProductModal() {
