@@ -6,7 +6,7 @@ export const productsData = [
     description: ``,
     imageUrl: "./images/freecars/ghost.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -15,7 +15,7 @@ export const productsData = [
     price: 0,
     imageUrl: "./images/freecars/stang.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
 ];

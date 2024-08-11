@@ -300,11 +300,11 @@ header {
 }
 
 .img-container {
-  width: 100%;
+  width: 90%;
 }
 
 .product-img {
-  width: 70%;
+  width: 100%;
   display: block;
   max-height: 150px;
   border: 1px solid var(--secondaryColor);

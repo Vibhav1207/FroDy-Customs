@@ -6,7 +6,7 @@ export const productsData = [
       description: ``,
       imageUrl: "./images//flying/720s.jpg",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
   
     {
@@ -15,7 +15,7 @@ export const productsData = [
       price: 16,
       imageUrl: "./images//flying/F5.png",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
   
     {
@@ -24,7 +24,7 @@ export const productsData = [
       price: 16,
       imageUrl: "./images//flying/flyingcharger.jpg",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
   
     {
@@ -33,7 +33,7 @@ export const productsData = [
       price: 16,
       imageUrl: "./images//flying/flyingdonk.jpg",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
   
     {
@@ -43,7 +43,7 @@ export const productsData = [
       imageUrl:
         "./images//flying/gt3s2.jpg",
          paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
   
     {
@@ -52,7 +52,7 @@ export const productsData = [
       price: 16,
       imageUrl: "./images//flying/utopia2024.jpg",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
 
     {
@@ -61,7 +61,7 @@ export const productsData = [
       price: 16,
       imageUrl: "./images//flying/X4.jpg",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
   
     {
@@ -71,7 +71,7 @@ export const productsData = [
       imageUrl:
         "./images//flying/bmwm8.png",
          paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
   
     {
@@ -80,7 +80,7 @@ export const productsData = [
       price: 16,
       imageUrl: "./images//flying/bmwm3.png",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
     },
   ];
   

@@ -5,7 +5,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/i7.png",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -14,7 +14,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/brz.jpg",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -23,7 +23,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/charger.jpg",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -32,7 +32,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/chargerbodykit.jpg",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -42,7 +42,7 @@ export const productsData = [
     imageUrl:
       "./images/debadged/cls63.png",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -51,7 +51,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/countach.jpg",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -60,7 +60,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/ctsv.jpg",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -69,7 +69,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/IXEV3.jpg",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -79,7 +79,7 @@ export const productsData = [
     imageUrl:
       "./images/debadged/lexus.png",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -88,7 +88,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/lfa2024.png",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -97,7 +97,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/m5tour.png",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -107,7 +107,7 @@ export const productsData = [
     imageUrl:
       "./images/debadged/m135i4.png",
     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -116,7 +116,7 @@ export const productsData = [
     price: 15,
     imageUrl: "./images/debadged/m330ivariant.jpg",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -125,7 +125,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/manray.jpg",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -134,7 +134,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/pupra.jpg",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -143,7 +143,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/r8.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -153,7 +153,7 @@ export const productsData = [
     imageUrl:
       "./images/debadged/r35custom.jpg",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -162,7 +162,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/r35widebody.jpg",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -171,7 +171,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/r341.jpg",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -181,7 +181,7 @@ export const productsData = [
     imageUrl:
       "./images/debadged/r367.png",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -190,7 +190,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/rr20247.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -199,7 +199,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/rsavant.jpg",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -208,7 +208,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/rx2024.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -217,7 +217,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/TTRS2.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -227,7 +227,7 @@ export const productsData = [
     imageUrl:
       "./images/debadged/uruswb.png",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -236,7 +236,7 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/velar.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -245,6 +245,6 @@ export const productsData = [
     price: 12,
     imageUrl: "./images/debadged/wald5002.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 ];

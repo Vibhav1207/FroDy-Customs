@@ -5,7 +5,7 @@ export const productsData = [
     price: 20,
     imageUrl: "./images/customcars/m4cs.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+     productLink: "https://reefbot.tech"
   },
 
   {
@@ -14,7 +14,7 @@ export const productsData = [
     price: 15,
     imageUrl: "./images/customcars/audiabt1.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -23,7 +23,7 @@ export const productsData = [
     price: 20,
     imageUrl: "./images/customcars/challengercustom.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -32,7 +32,7 @@ export const productsData = [
     price: 15,
     imageUrl: "./images/customcars/frodyfoodtruck.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -42,7 +42,7 @@ export const productsData = [
     imageUrl:
       "./images/customcars/e46nfs.png",
        paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -51,7 +51,7 @@ export const productsData = [
     price: 20,
     imageUrl: "./images/customcars/e60itachi.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -60,7 +60,7 @@ export const productsData = [
     price: 20,
     imageUrl: "./images/customcars/gtdemon.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -68,8 +68,15 @@ export const productsData = [
     title: "Golden RS7",
     price: 20,
     imageUrl: "./images/customcars/goldens.png",
-     paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+    paypalForm: `
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="QJMGARFBZNJZS" />
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+</form>
+  `,
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -78,7 +85,7 @@ export const productsData = [
     price: 15,
     imageUrl: "./images/customcars/x7.jpg",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -87,7 +94,7 @@ export const productsData = [
     price: 35,
     imageUrl: "./images/customcars/g63custom.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 
   {
@@ -96,7 +103,7 @@ export const productsData = [
     price: 15,
     imageUrl: "./images/customcars/alfaromeo.png",
      paypalLink1: "https://discord.gg/c9ypXkTfW2",
-   preview: "https://www.paypal.com/link2-product1"
+   productLink : "https://reefbot.tech"
   },
 ];
 
