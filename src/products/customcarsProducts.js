@@ -110,7 +110,7 @@ export const productsData = [
     price: 35,
     imageUrl: "./images/customcars/g63custom.png",
        paypalForm: `
- <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick" />
   <input type="hidden" name="hosted_button_id" value="Q5WSSQQ9MJ2JN" />
   <input type="hidden" name="currency_code" value="USD" />
