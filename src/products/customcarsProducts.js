@@ -129,17 +129,6 @@ export const productsData = [
 },
 
   {
-    id: 9,
-    title: "X7 Custom",
-    price: 15,
-    imageUrl: "./images/customcars/x7.jpg",
-       paypalForm: `
- 
-    `,
-   productLink : "https://reefbot.tech"
-  },
-
-  {
     id: 10,
     title: "Mercedes AMG G63 Custom",
     price: 35,
