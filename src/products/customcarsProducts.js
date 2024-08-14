@@ -81,7 +81,13 @@ export const productsData = [
     price: 20,
     imageUrl: "./images/customcars/e60itachi.png",
        paypalForm: `
- 
+<script src="https://www.paypal.com/sdk/js?client-id=BAAad29FQVroT7mfZbW995T8bywKaXU4Z1OwNJJsnfvOSVdwFVr5pAmvGY5VcLZGVTMaqRdIlQNNmqjT1A&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<div id="paypal-container-6K9PAWQA7288Q"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "6K9PAWQA7288Q",
+  }).render("#paypal-container-6K9PAWQA7288Q")
+</script>
     `,
    productLink : "https://reefbot.tech"
   },
