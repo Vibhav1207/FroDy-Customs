@@ -112,28 +112,5 @@ export const productsData = [
     `,
    productLink : "https://reefbot.tech"
     },
-  
-    {
-      id: 8,
-      title: "BMW M8",
-      price: 16,
-      imageUrl:
-        "./images//flying/bmwm8.png",
-           paypalForm: `
- 
-    `,
-   productLink : "https://reefbot.tech"
-    },
-  
-    {
-      id: 9,
-      title: "BMW M3",
-      price: 16,
-      imageUrl: "./images//flying/bmwm3.png",
-         paypalForm: `
- 
-    `,
-   productLink : "https://reefbot.tech"
-    },
   ];
   
