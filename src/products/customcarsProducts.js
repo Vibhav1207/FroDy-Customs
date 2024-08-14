@@ -81,13 +81,12 @@ export const productsData = [
     price: 20,
     imageUrl: "./images/customcars/e60itachi.png",
        paypalForm: `
-<script src="https://www.paypal.com/sdk/js?client-id=BAAad29FQVroT7mfZbW995T8bywKaXU4Z1OwNJJsnfvOSVdwFVr5pAmvGY5VcLZGVTMaqRdIlQNNmqjT1A&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
-<div id="paypal-container-6K9PAWQA7288Q"></div>
-<script>
-  paypal.HostedButtons({
-    hostedButtonId: "6K9PAWQA7288Q",
-  }).render("#paypal-container-6K9PAWQA7288Q")
-</script>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="SLT33AHUJE52W" />
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+</form>
     `,
    productLink : "https://reefbot.tech"
   },
