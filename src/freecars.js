@@ -86,7 +86,7 @@ class UI {
             ${
               item.paypalForm
                 ? item.paypalForm
-                : `<form action="${item.paypalLink1}" method="post" target="_blank">
+                : `<form action="${item.paypalForm}" method="post" target="_blank">
                     <button class="btn add-to-cart" type="submit">Buy Now</button>
                    </form>`
             }

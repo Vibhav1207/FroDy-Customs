@@ -6,7 +6,7 @@ export const productsData = [
     description: ``,
     imageUrl: "./images/freecars/ghost.png",
        paypalForm: `
- 
+ https://discord.gg/c9ypXkTfW2
     `,
    productLink : "https://reefbot.tech"
   },
@@ -16,9 +16,7 @@ export const productsData = [
     title: "Mustang GT500 Gold",
     price: 0,
     imageUrl: "./images/freecars/stang.png",
-       paypalForm: `
- 
-    `,
+       paypalForm: `https://discord.gg/c9ypXkTfW2`,
    productLink : "https://reefbot.tech"
   },
 
