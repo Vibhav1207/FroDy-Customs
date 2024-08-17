@@ -82,14 +82,7 @@ class UI {
             <p class="product-price">$${item.price}</p>
           </div>
           <div class="button-container">
-        
-            ${
-              item.paypalForm
-                ? item.paypalForm
-                : `<form action="${item.paypalLink1}" method="post" target="_blank">
-                    <button class="btn add-to-cart" type="submit">Buy Now</button>
-                   </form>`
-            }
+            ${item.productLink ? `<button class="btn add-to-cart" onclick="window.open('${item.productLink}', '_blank')">Grab Now</button>` : ''}
           </div>
         </div>
       `;
