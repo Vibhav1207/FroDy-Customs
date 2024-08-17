@@ -82,7 +82,7 @@ class UI {
             <p class="product-price">$${item.price}</p>
           </div>
           <div class="button-container">
-            ${item.productLink ? `<button class="btn add-to-cart" onclick="window.open('${item.productLink}', '_blank')">Buy Now</button>` : ''}
+            ${item.productLink ? `<button class="btn add-to-cart" onclick="window.open('${item.productLink}', '_blank')">Grab Now</button>` : ''}
           </div>
         </div>
       `;
