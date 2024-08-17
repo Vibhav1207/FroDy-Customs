@@ -3,7 +3,6 @@
 /*==================== ProductsData ===================*/
 // Import productsData
 import { productsData } from './products/flyingcarsProducts.js';
-
 /*======================== Modal ======================*/
 const cartBtn = document.querySelector('.cart-btn'),
   cartModal = document.querySelector('.cart'),
@@ -34,13 +33,21 @@ function showProductModal(product) {
   backDrop.style.display = 'block';
   productModal.style.display = 'block';
 
+  // Set modal content with product details
   document.querySelector('.modal-title').textContent = product.title;
   document.querySelector('.modal-image').src = product.imageUrl;
   document.querySelector('.modal-description').innerHTML = product.description.replace(/\n/g, '<br>');
   document.querySelector('.modal-price').textContent = `$${product.price}`;
 
-  document.querySelector('.paypal-link1').href = product.paypalLink1;
-  document.querySelector('.preview').href = product.paypalLink2;
+  // Set the Preview button link
+  const previewButton = document.querySelector('.modal-right .btn.add-to-cart');
+  previewButton.href = product.productLink;
+
+  // Attach event listener to the Preview button
+  previewButton.addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default link behavior
+    window.open(product.productLink, '_blank'); // Open in a new tab
+  });
 }
 
 function closeProductModal() {
@@ -50,7 +57,6 @@ function closeProductModal() {
 
 /*==================== Get Products ===================*/
 class Products {
-  // Load products from API endpoint while loading the page
   getProducts() {
     return productsData;
   }
@@ -61,38 +67,43 @@ const productsDOM = document.querySelector('.products-center'),
   searchInput = document.querySelector('.search');
 
 class UI {
-
   displayProducts(products) {
     let result = '';
 
     products.forEach((item) => {
       result += `
-       <div class="product">
+        <div class="product">
           <div class="img-container">
-            <img class="product-img" src="${item.imageUrl}" alt="${item.title}" />
+            <img class="product-img" src="${item.imageUrl}" alt="${item.title}" data-id="${item.id}" />
           </div>
           <div class="product-desc">
             <p class="product-title">${item.title}</p>
             <p class="product-price">$${item.price}</p>
           </div>
           <div class="button-container">
-            <a class="btn add-to-cart" href="${item.paypalLink1}" target="_blank">Buy Now</a>
-            <a class="btn add-to-cart" href="${item.preview}" target="_blank">Preview</a>
+        
+            ${
+              item.paypalForm
+                ? item.paypalForm
+                : `<form action="${item.paypalLink1}" method="post" target="_blank">
+                    <button class="btn add-to-cart" type="submit">Buy Now</button>
+                   </form>`
+            }
           </div>
-          <button class="btn more-details" data-id="${item.id}">ⓘ</button>
         </div>
       `;
     });
 
     productsDOM.innerHTML = result;
+    this.addProductImageClickHandler();
   }
 
-  getMoreDetailsBtns() {
-    const moreDetailsBtns = [...document.querySelectorAll('.more-details')];
+  addProductImageClickHandler() {
+    const productImages = [...document.querySelectorAll('.product-img')];
 
-    moreDetailsBtns.forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const id = btn.dataset.id;
+    productImages.forEach((img) => {
+      img.addEventListener('click', () => {
+        const id = img.dataset.id;
         const product = Storage.getProducts(id);
         showProductModal(product);
       });
@@ -120,7 +131,6 @@ const searchProduct = () => {
       p.title.toLowerCase().includes(searchValue)
     );
     ui.displayProducts(filteredProducts);
-    ui.getMoreDetailsBtns();
   });
 };
 
@@ -132,6 +142,5 @@ document.addEventListener('DOMContentLoaded', () => {
   const productsData = products.getProducts();
   ui.displayProducts(productsData);
   Storage.saveProducts(productsData);
-  ui.getMoreDetailsBtns();
   searchProduct();
 });

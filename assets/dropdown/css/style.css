@@ -59,9 +59,9 @@
     display: inline-block;
     vertical-align: middle;
     width: 16px;
-    -webkit-box-shadow: 0 -6px 0 1px #282828,0 0 0 1px #282828,0 6px 0 1px #282828;
-    -moz-box-shadow: 0 -6px 0 1px #282828,0 0 0 1px #282828,0 6px 0 1px #282828;
-    box-shadow: 0 -6px 0 1px #282828,0 0 0 1px #282828,0 6px 0 1px #282828; }
+    -webkit-box-shadow: 0 -6px 0 1px #e21e1e,0 0 0 1px #e21e1e,0 6px 0 1px #e21e1e;
+    -moz-box-shadow: 0 -6px 0 1px #e21e1e,0 0 0 1px #e21e1e,0 6px 0 1px #e21e1e;
+    box-shadow: 0 -6px 0 1px #e21e1e,0 0 0 1px #e21e1e,0 6px 0 1px #e21e1e; }
 
 .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]::after {
   border-bottom: 0.35em solid transparent;
