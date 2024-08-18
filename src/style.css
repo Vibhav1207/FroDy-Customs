@@ -1222,3 +1222,11 @@ header {
 .menu-toggle:checked ~ .nav-list li {
   display: block;
 }
+
+.nav-list {
+  display: none;
+}
+
+.nav-list.show-menu {
+  display: block;
+}
