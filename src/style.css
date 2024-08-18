@@ -1219,43 +1219,45 @@ header {
   cursor: pointer;
 }
 
-/* Media Query */
-@media screen and (max-width: 1024px) {
-  .nav-list {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
+/* Ensure that the nav-list is hidden by default on mobile */
+.nav-list {
+  display: none;
+}
 
-  .nav-list li {
-    display: block;
-    margin: 1rem 0;
-  }
+/* When the menu-toggle is checked, display the nav-list */
+.menu-toggle:checked ~ .nav-list-center .nav-list {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bodyColor);
+  position: absolute;
+  top: 80px; /* Adjust based on your header height */
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
 
-  .menu-toggle:checked ~ .nav-list {
-    display: flex;
-  }
+/* Style the nav-list items on mobile */
+.nav-list li {
+  display: block;
+  padding: 1rem 0;
+  text-align: center;
+}
 
-  .nav-list-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+/* Ensure that the nav-center content is properly aligned */
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .cart-btn {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 1rem;
-  }
+/* Adjust the cart-btn positioning on mobile */
+.cart-btn {
+  position: absolute;
+  right: 1rem;
+}
 
-  .menu-icon {
-    display: block;
-  }
-
-  .search-border .search {
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
+/* Adjust the menu-icon */
+.menu-icon {
+  padding-left: 1rem;
+  z-index: 3; /* Ensure the menu icon stays above the nav-list */
 }
