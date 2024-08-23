@@ -163,7 +163,7 @@ header {
   background-color: var(--mainButton);
 }
 
-.menu-toggle:checked + .menu-icon span:nth-child(1) {
+.Test:checked + .menu-icon span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
 
@@ -1219,3 +1219,45 @@ header {
   cursor: pointer;
 }
 
+/* Ensure that the nav-list is hidden by default on mobile */
+.nav-list {
+  display: none;
+}
+
+/* When the menu-toggle is checked, display the nav-list */
+.menu-toggle:checked ~ .nav-list-center .nav-list {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bodyColor);
+  position: absolute;
+  top: 80px; /* Adjust based on your header height */
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+/* Style the nav-list items on mobile */
+.nav-list li {
+  display: block;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Ensure that the nav-center content is properly aligned */
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Adjust the cart-btn positioning on mobile */
+.cart-btn {
+  position: absolute;
+  right: 1rem;
+}
+
+/* Adjust the menu-icon */
+.menu-icon {
+  padding-left: 1rem;
+  z-index: 3; /* Ensure the menu icon stays above the nav-list */
+}
