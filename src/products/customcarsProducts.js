@@ -142,5 +142,21 @@ export const productsData = [
     `,
    productLink : "https://reefbot.tech"
   },
+
+  {
+    id: 10,
+    title: "I Wagen v2",
+    price: 22,
+    imageUrl: "./images/customcars/iwagenv2fc.png",
+       paypalForm: `
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="FXHCNT3NWT73C" />
+  <input type="hidden" name="currency_code" value="USD" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
+</form>
+    `,
+   productLink : "https://reefbot.tech"
+  },
 ];
 
