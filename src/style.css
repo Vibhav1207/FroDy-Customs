@@ -1152,7 +1152,7 @@ header {
 
 
 .nav-list a {
-  color: black; /* Set default link color to black */
+  color: white; /* Set default link color to black */
   font-weight: bold; /* Make all links bold */
   text-decoration: none; /* Remove underline from links */
 }
@@ -1220,9 +1220,9 @@ header {
 }
 
 /* Ensure that the nav-list is hidden by default on mobile */
-.nav-list {
+/*.nav-list {
   display: none;
-}
+}*/
 
 /* When the menu-toggle is checked, display the nav-list */
 .menu-toggle:checked ~ .nav-list-center .nav-list {
