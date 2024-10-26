@@ -179,7 +179,7 @@ export const productsData = [
     id: 12,
     title: "Dodge Challenger 6 Seat",
     price: 30,
-    imageUrl: "./images/customcars/fcseat.png",
+    imageUrl: "./images/customcars/fc6seat.png",
        paypalForm: `
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
   <input type="hidden" name="cmd" value="_s-xclick" />
