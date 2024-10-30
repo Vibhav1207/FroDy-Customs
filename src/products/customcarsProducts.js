@@ -194,7 +194,7 @@ export const productsData = [
   {
     id: 12,
     title: "Gold Edition Bentley Batur 2025",
-    price: 30,
+    price: 22,
     imageUrl: "./images/customcars/batur.png",
        paypalForm: `
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
